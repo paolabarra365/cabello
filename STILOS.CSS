@@ -1,0 +1,109 @@
+/* Fondo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(184, 12, 175);
+    text-align: center;
+    background: url('img/8.jpg') no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+/* Estilo del header */
+header {
+    background-color: rgba(142, 68, 173, 0.8); /* Fondo semitransparente */
+    color: white;
+    padding: 20px;
+}
+
+/* Encabezados */
+h1, h2 {
+    margin: 10px 0;
+}
+
+/* Sección de video */
+.video-section video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.video-section video:hover {
+    transform: scale(1.05);
+}
+
+/* Galería de imágenes */
+.image-gallery {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.image-gallery .images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image-gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Sección de audio */
+.audio-section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Botones de estilo */
+.styles {
+    padding: 20px;
+}
+
+.style-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.style-button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo del footer */
+footer {
+    background-color: rgba(142, 68, 173, 0.8); /* Fondo semitransparente */
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+/* Imagen en cada página de estilo */
+.style-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
